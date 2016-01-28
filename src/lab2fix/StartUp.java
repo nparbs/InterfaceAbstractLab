@@ -20,7 +20,13 @@ public class StartUp {
         intToPro.setCourseNumber("42424");
         System.out.println(intToPro.getCourseName());
             System.out.println(intToPro.getCourseNumber());
-        
+            
+            
+                IntroJavaCourse java1 = new IntroJavaCourse();
+        java1.setCourseName("Into To Java");
+        java1.setCourseNumber("46672");
+        System.out.println(java1.getCourseName());
+        System.out.println(java1.getCourseNumber());
         
         
     }
