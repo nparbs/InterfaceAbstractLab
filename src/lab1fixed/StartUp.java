@@ -12,17 +12,19 @@ package lab1fixed;
 public class StartUp {
     
     public static void main(String[] args) {
-        
-    
-        
-        
-        
+
         IntroToProgrammingCourse intToPro = 
-                new IntroToProgrammingCourse("","");
+                new IntroToProgrammingCourse("intro to prog","427573424");
         //intToPro.setCourseName("Intro To Programming");
         //intToPro.setCourseNumber("42424");
         System.out.println(intToPro.getCourseName());
         System.out.println(intToPro.getCourseNumber());
+        
+        IntroJavaCourse java1 = 
+                new IntroJavaCourse("java1","4236774");
+
+        System.out.println(java1.getCourseName());
+        System.out.println(java1.getCourseNumber());
         
         
         
