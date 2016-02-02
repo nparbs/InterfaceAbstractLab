@@ -22,12 +22,20 @@ public class StartUp {
         
         IntroJavaCourse java1 = 
                 new IntroJavaCourse("java1","4236774");
-
         System.out.println(java1.getCourseName());
         System.out.println(java1.getCourseNumber());
         
+        //AdvancedJavaCourse advJava = 
+        //        new AdvancedJavaCourse();
         
-        
+        //Polymorphism
+        ProgrammingCourse[] courses = {new IntroToProgrammingCourse(),
+            new AdvancedJavaCourse()};
+        for(ProgrammingCourse c : courses){
+            c.setCredits(3);
+            c.getCredits();
+            
+        }
         
     }
     
