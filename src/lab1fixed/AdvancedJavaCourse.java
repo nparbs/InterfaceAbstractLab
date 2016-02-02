@@ -1,14 +1,16 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
 package lab1fixed;
-
-import lab1.*;
 import javax.swing.JOptionPane;
 
 /**
- * Describe responsibilities here.
  *
- * @author      your name goes here
- * @version     1.00
+ * @author nparbs
  */
+
 public class AdvancedJavaCourse extends ProgrammingCourse {
     private String courseName;
     private String courseNumber;

@@ -5,8 +5,6 @@
  */
 package lab2fix;
 
-import lab1fixed.*;
-
 /**
  *
  * @author nparbs

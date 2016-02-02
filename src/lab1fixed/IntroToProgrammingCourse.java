@@ -1,14 +1,13 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
 package lab1fixed;
 
-import lab1.*;
-import javax.swing.JOptionPane;
-
 /**
- * Describe responsibilities here. NOTE: this class has NO PREREQUISITES!
- * Do not change this fact.
  *
- * @author      your name goes here
- * @version     1.00
+ * @author nparbs
  */
 public class IntroToProgrammingCourse extends ProgrammingCourse {
     
